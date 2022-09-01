@@ -1,0 +1,32 @@
+
+// Responsive
+
+@media(max-width: 1920px) {
+
+    .header {
+        flex-direction: row;
+    }
+}
+
+
+
+
+
+    @media(max-width: 769px) {
+
+        .header {
+            flex-direction: column;
+        }
+
+    }
+
+    @media(max-width: 426px) {
+    
+        .header {
+            flex-direction: column;
+        }
+
+        h2{
+            font-size: 5px;
+        }
+}
